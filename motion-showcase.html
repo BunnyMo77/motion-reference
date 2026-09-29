@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f1f0e8">
+  <title>旅行边角料 — Motion Showcase</title>
+  <link rel="icon" href="test02/Icon-bird.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/Hero_BG_Grass.webp" as="image">
+  <link rel="preload" href="test02/Hero_Title.svg" as="image">
+  <link rel="stylesheet" href="motion-showcase.css">
+  <script defer src="motion-showcase.js"></script>
+</head>
+<body>
+  <a class="skip" href="#guide">Skip to album guide</a>
+  <aside class="rail rail-left" aria-label="About this experience">
+    <a class="wordmark" href="#top"><img src="test02/Icon-bird.svg" alt="">OFF THE<br>POSTCARD<span>A TRAVEL SCRAPBOOK</span></a>
+    <div class="side-note"><span class="tiny">THE GOOD STUFF</span><p>A little blurry.<br>A little unexpected.<br>Entirely yours.</p><span class="hand-arrow">↘</span></div>
+    <div class="edition">FIELD NOTES — 2026<br><span>KEEP THE IMPERFECT ONES.</span></div>
+  </aside>
+  <aside class="rail rail-right" aria-label="Chapter navigation">
+    <span class="tiny">SCROLL TO EXPLORE</span>
+    <nav class="chapters">
+      <a href="#top" class="active" data-chapter="hero"><span>01</span>The outtakes<i></i></a>
+      <a href="#guide" data-chapter="guide"><span>02</span>Open your album<i></i></a>
+      <a href="#prizes" data-chapter="prizes"><span>03</span>Little rewards<i></i></a>
+    </nav>
+    <div class="rail-bottom"><span class="live-dot"></span> A SCRAPBOOK IN MOTION<br><span>Move your cursor. Turn a page.</span></div>
+  </aside>
+  <main id="top" class="stage-wrap" aria-label="旅行边角料 interactive travel scrapbook">
+    <div class="artboard">
+      <section class="hero scene" id="hero" aria-label="旅行边角料 — Keep your travel outtakes">
+        <div class="sky"></div><div class="grain"></div><div class="grass-fill"></div>
+        <img class="asset hill" src="assets/Hero_BG_Grass.webp" alt="A traveler lying carefree on a green hill" fetchpriority="high">
+        <div class="asset title-cutout entrance" data-enter="title" style="left:110px;top:24px;width:501px" data-depth="14">
+          <img class="title-outline" src="test02/Hero_Title_Outline.svg" alt="">
+          <img class="title-letters" src="test02/Hero_Title.svg" alt="旅行边角料 — Travel Outtakes">
+        </div>
+        <div class="asset cloud cloud-left" style="left:-142px;top:295px;width:420px" data-depth="-20"><img src="assets/Cloud-left.webp" alt=""></div>
+        <div class="asset cloud cloud-right" style="right:-87px;top:266px;width:260px" data-depth="-15"><img src="assets/Hero_Cloud_Right.webp" alt=""></div>
+        <div class="asset cloud small-cloud c1" style="left:484px;top:170px;width:355px" data-depth="-28"><img src="assets/Hero_Cloud-SmallMid.webp" alt=""></div>
+        <div class="asset cloud small-cloud c2" style="left:214px;top:445px;width:270px" data-depth="-18"><img src="assets/Hero_Cloud-Smallright.webp" alt=""></div>
+        <img class="asset bird bird-one" src="test02/Hero_Bird_01.svg" alt="" style="left:70px;top:49px;width:67px" data-depth="28">
+        <img class="asset bird bird-two" src="test02/Hero_Bird_02.svg" alt="" style="left:581px;top:275px;width:67px" data-depth="22">
+        <div class="asset girl-outline reveal" style="left:148px;top:582px;width:447px" data-reveal="draw"><img src="test02/Hero_Girl-Outline.svg" alt=""></div>
+        <img class="asset doodle reveal" src="test02/Hero_Doodle_White_01.svg" alt="" style="left:151px;top:618px;width:47px" data-reveal="pop">
+        <button class="asset photo p1 reveal" style="left:58px;top:883px;width:222px" data-reveal="photo" data-tilt="-7" data-photo="0" aria-label="Open the unexpected photobomb"><img src="assets/Hero_Polaroid_01.webp" alt="Two unexpected guests in a travel photo"></button>
+        <button class="asset photo p2 reveal" style="left:258px;top:820px;width:192px" data-reveal="photo" data-tilt="4" data-photo="1" aria-label="Open the unplanned expression"><img src="assets/Hero_Polaroid_02.webp" alt="A spontaneous, imperfect smile"></button>
+        <button class="asset photo p3 reveal" style="left:436px;top:897px;width:225px" data-reveal="photo" data-tilt="8" data-photo="2" aria-label="Open the snack break"><img src="assets/Hero_Polaroid_02-1.webp" alt="Caught in the middle of a snack break"></button>
+        <div class="asset intro-note reveal" style="left:69px;top:1180px;width:590px;height:670px" data-reveal="paper">
+          <img class="intro-paper" src="test02/Hero_Intro_BG.svg" alt="">
+          <img class="intro-copy" src="test02/Hero_IntroText.svg" alt="旅行相册里，总有一些没被选中的照片。它们可能不够出片，却留下了旅行最真实、最好玩的部分。这一次，别删。发出来。带上 #旅行边角料 晒出你的废片。">
+        </div>
+        <button class="asset publish reveal" style="left:85px;top:1840px;width:570px" data-reveal="pop" data-publish aria-label="Create your travel outtake"><img src="test02/Hero_CTA_GO.svg" alt="去发布"></button>
+        <div class="scroll-cue"><span>继续往下翻</span><span>↓</span></div>
+      </section>
+      <section class="guide scene" id="guide" aria-label="Open your album">
+        <div class="torn-edge"></div>
+        <img class="asset section-heading reveal" src="test02/02_AlbumGuide.svg" alt="Part 2 相册翻一番" style="left:45px;top:38px;width:650px" data-reveal="paper">
+        <svg class="journey-line" viewBox="0 0 750 1450" aria-hidden="true"><path d="M140 238 C660 200 685 570 220 640 S100 990 570 990 S660 1300 150 1380"/></svg>
+        <img class="asset step reveal" src="test02/AlbumGuide_Step_01.svg" alt="01 往前翻翻。打开旅行相册，找到那些一直没机会发出来的照片。" style="left:93px;top:200px;width:571px" data-reveal="right">
+        <img class="asset step reveal" src="test02/AlbumGuide_Step_02.svg" alt="02 挑张废片。失焦、手抖、构图翻车、路人乱入。" style="left:66px;top:556px;width:576px" data-reveal="left">
+        <img class="asset step reveal" src="test02/AlbumGuide_Step_03.svg" alt="03 写点什么。当时发生了什么？为什么它一直留在你的相册里？" style="left:75px;top:839px;width:582px" data-reveal="right">
+        <img class="asset step reveal" src="test02/AlbumGuide_Step_04.svg" alt="04 发出来。发布照片和故事，带上 #旅行边角料 即可参与。" style="left:76px;top:1114px;width:559px" data-reveal="left">
+        <img class="asset reveal" src="test02/ScrapExamples_Title.svg" alt="什么算边角料？" style="left:194px;top:1433px;width:355px" data-reveal="pop">
+        <button class="asset photo example reveal" style="left:41px;top:1590px;width:335px" data-reveal="photo" data-tilt="-5" data-photo="1" aria-label="Look closer at the spontaneous smile"><img src="assets/ScrapExamples_Polaroid_01.webp" alt="表情失控 — A spontaneous expression"></button>
+        <button class="asset photo example reveal" style="left:398px;top:1579px;width:305px" data-reveal="photo" data-tilt="6" data-photo="0" aria-label="Look closer at the photobomb"><img src="assets/ScrapExamples_Polaroid_02.webp" alt="路人乱入 — An unexpected photobomb"></button>
+        <p class="asset caption reveal" style="left:135px;top:1970px;width:200px" data-reveal="paper"><mark>没摆好的表情，</mark><br><mark>才是那天的心情。</mark></p>
+        <p class="asset caption reveal" style="left:440px;top:1970px;width:220px" data-reveal="paper"><mark>意外闯入的路人，</mark><br><mark>也是旅途的一部分。</mark></p>
+      </section>
+      <section class="prizes scene" id="prizes" aria-label="Three little rewards for your travel stories">
+        <img class="asset section-heading reveal" src="test02/03_Prizes.svg" alt="Part 3 相册翻一番 — Rewards" style="left:45px;top:25px;width:650px" data-reveal="paper">
+        <img class="asset prize reveal" src="assets/Prize_01.webp" alt="你不是一个人奖 ×30" style="left:51px;top:196px;width:646px" data-reveal="prize" loading="lazy">
+        <img class="asset prize reveal" src="test02/Prize_02.svg" alt="手滑就有奖 ×30" style="left:91px;top:791px;width:560px" data-reveal="prize" loading="lazy">
+        <img class="asset prize reveal" src="test02/Prize_03.svg" alt="旅行彩蛋奖 ×30" style="left:69px;top:1370px;width:610px" data-reveal="prize" loading="lazy">
+        <button class="asset publish reveal" style="left:112px;top:1955px;width:528px" data-reveal="pop" data-publish aria-label="Create your travel outtake"><img src="test02/Ending_CTA.svg" alt="去发布"></button>
+        <img class="asset ending-quote reveal" src="test02/Ending_Text.svg" alt="有些照片，当不了朋友圈封面。但可以成为旅行的证据。" style="left:78px;top:2350px;width:595px" data-reveal="paper" loading="lazy">
+        <div class="endnote"><img src="test02/Icon-bird.svg" alt=""><span>EVERY OUTTAKE HAS A STORY.</span><button id="back-top">再翻一次 ↗</button></div>
+      </section>
+    </div>
+  </main>
+  <div class="transport" aria-label="Animation controls">
+    <button id="tour" class="tour-button" aria-label="Play automatic scroll tour"><span id="tour-icon">▶</span><span id="tour-label">Play the story</span></button>
+    <span class="transport-divider"></span>
+    <button id="replay" aria-label="Replay from the beginning" title="Replay">↺</button>
+    <button id="motion" aria-label="Pause ambient animation" aria-pressed="false" title="Pause motion">≈</button>
+    <span class="progress-track" aria-hidden="true"><span id="progress"></span></span><span id="percent">00%</span>
+  </div>
+  <dialog id="photo-dialog" class="photo-dialog" aria-labelledby="photo-title">
+    <button class="close-dialog" aria-label="Close photo">×</button>
+    <img id="detail-photo" src="assets/Hero_Polaroid_01.webp" alt="">
+    <div><span class="tiny">A MEMORY WORTH KEEPING</span><h2 id="photo-title"></h2><p id="photo-story"></p><button class="text-button" id="next-photo">Another little moment ↗</button></div>
+  </dialog>
+  <dialog id="compose-dialog" class="compose-dialog" aria-labelledby="compose-title">
+    <button class="close-dialog" aria-label="Close scrapbook creator">×</button>
+    <span class="tiny">YOUR NEXT SCRAPBOOK PAGE</span>
+    <h2 id="compose-title">别删。留下来。</h2><p>Pick an imperfect photo. Give it a little story.</p>
+    <form id="scrapbook-form">
+      <label class="upload-zone" for="upload"><span id="upload-label">＋ Choose a travel photo</span><input id="upload" type="file" accept="image/*" required><img id="upload-preview" alt="Your selected travel photo" hidden></label>
+      <label for="story">The story behind it</label><textarea id="story" maxlength="160" placeholder="What happened just outside the perfect frame?" required></textarea>
+      <div class="compose-footer"><span>#旅行边角料</span><button class="save-button" type="submit">Save my keepsake ↗</button></div>
+      <p class="privacy-note">A keepsake made on your device. Your photo stays here.</p>
+    </form>
+    <div id="keepsake-result" hidden><img id="keepsake-preview" alt="Your finished travel keepsake"><a id="keepsake-download" class="save-button" download="my-travel-outtake.png">Download PNG ↗</a><p class="privacy-note" role="status">Your keepsake is ready. Download it or save the image above.</p></div>
+  </dialog>
+  <p class="toast" role="status"></p>
+</body>
+</html>
